@@ -1,5 +1,5 @@
 /*
- * 程序名：demo07.cpp，此程序用于演示socket通讯的客户端。
+ * 程序名：demo07.cpp，此程序用于演示采用TcpClient类实现socket通讯的客户端。
  * 作者：moonhoro
 */
 #include "../_public.h"
