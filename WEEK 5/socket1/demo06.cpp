@@ -1,5 +1,5 @@
 /*
- * 程序名：demo04.cpp，此程序用于演示粘包的socket服务端。
+ * 程序名：demo04.cpp，此程序用于演示不粘包的socket服务端。
  * 作者：moonhoro
 */
 #include "../_public.h"
