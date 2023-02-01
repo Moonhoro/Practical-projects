@@ -1,5 +1,5 @@
 /*
- * 程序名：demo08.cpp，此程序用于演示socket通讯的服务端。
+ * 程序名：demo08.cpp，此程序用于演示采用TcpServer类实现socket通讯的服务端。
  * 作者：moonhoro
 */
 #include "../_public.h"
