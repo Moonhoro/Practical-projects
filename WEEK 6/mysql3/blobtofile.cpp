@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 
     // 登录数据库
 
-    if (conn.connecttodb("127.0.0.1,root,Ggh.20020902,mysql,3306", "utf8") != 0)
+    if (conn.connecttodb("127.0.0.1,root,mysqlpassword,mysql,3306", "utf8") != 0)
     {
         printf("connect datebase failed.\n%s\n", conn.m_cda.message);
         return -1;
