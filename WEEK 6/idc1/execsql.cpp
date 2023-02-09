@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
         printf("\n");
         printf("Using:./execsql sqlfile connstr charset logfile\n");
 
-        printf("Example:/root/project/tools1/bin/procctl 120 /root/project/tools1/bin/execsql /root/project/idc/sql/cleardata.sql \"127.0.0.1,root,Ggh.20020902,mysql,3306\" utf8 /root/log/idc/execsql.log\n\n");
+        printf("Example:/root/project/tools1/bin/procctl 120 /root/project/tools1/bin/execsql /root/project/idc/sql/cleardata.sql \"127.0.0.1,root,mysqlpassword,mysql,3306\" utf8 /root/log/idc/execsql.log\n\n");
 
         printf("这是一个工具程序，用于执行一个sql脚本文件。\n");
         printf("sqlfile sql脚本文件名，每条sql语句可以多行书写，分号表示一条sql语句的结束，不支持注释。\n");
