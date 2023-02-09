@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
         printf("\n");
         printf("Using:./obtmindtodb pathname connstr charset logfile\n");
 
-        printf("Example:/root/project/tools1/bin/procctl 10 /root/project/idc1/bin/obtmindtodb /idcdata/surfdata \"127.0.0.1,root,Ggh.20020902,mysql,3306\" utf8 /root/log/idc/obtmindtodb.log\n\n");
+        printf("Example:/root/project/tools1/bin/procctl 10 /root/project/idc1/bin/obtmindtodb /idcdata/surfdata \"127.0.0.1,root,mysqlpassword,mysql,3306\" utf8 /root/log/idc/obtmindtodb.log\n\n");
 
         printf("本程序用于把全国站点分钟观测数据保存到数据库的T_ZHOBTMIND表中，数据只插入，不更新。\n");
         printf("pathname 全国站点分钟观测数据文件存放的目录。\n");
